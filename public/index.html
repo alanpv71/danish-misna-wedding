@@ -565,15 +565,15 @@ body{background:var(--cream);font-family:var(--font-main);color:var(--deep);over
 </div>
 </div>
   
-    <!-- Map button paused until venue details are final.
-    <a class="map-btn" href="https://maps.app.goo.gl/place" target="_blank">Open in Maps</a>
-    -->
-    <!-- QR code paused until venue details are final.
+    <!-- Map button paused until venue details are final.-->
+    <a class="map-btn" href="https://maps.app.goo.gl/ndGbz5ZmUjreYphz5?g_st=aw" target="_blank">Open in Maps</a>
+    
+    <!-- QR code paused until venue details are final.-->>
     <div class="qr-wrap">
       <p class="qr-label">Scan for directions</p>
       <div id="qrcode"></div>
     </div>
-    -->
+  
   </div>
 
   <div class="p2-footer">
@@ -712,17 +712,15 @@ if ('IntersectionObserver' in window) {
   tick(); setInterval(tick, 1000);
 })();
 
-/* QR code paused until venue/map details are final.
 window.addEventListener('load', function(){
   new QRCode(document.getElementById('qrcode'), {
-    text: 'https://maps.app.goo.gl/hCoeBwUnwR98MbxL9',
+    text:'https://maps.app.goo.gl/ndGbz5ZmUjreYphz5?g_st=aw',
     width: 148, height: 148,
     colorDark: '#4a3a28',
     colorLight: '#faf6ed',
     correctLevel: QRCode.CorrectLevel.H
   });
 });
-*/
 
 /*letters — anagram reel, all positions rolling together, infinitely*/
 const anagramSource = "Casavie Paradise";
