@@ -548,27 +548,27 @@ body{background:var(--cream);font-family:var(--font-main);color:var(--deep);over
     </div>
   </div>
 
-  <!-- venue -->
+  <!-- venue --> 
   <div class="venue-secret-card">
 
   <div class="secret-badge">
     Venue 
   </div>
   <div class="venue-roller">
+    Casavie Paradise
+    
     <div class="lottery-word" id="lotteryWord"></div>
-  </div>
-
+  </div> 
   <p class="venue-surprise">
-    Will be unveiled soon...<br>Unless you don't want to wait — break the anagram
-  </p>
+Vaniyambalam, Poongode </p>
 
 </div>
 </div>
   
     <!-- Map button paused until venue details are final.-->
-    <a class="map-btn" href="https://maps.app.goo.gl/ndGbz5ZmUjreYphz5?g_st=aw" target="_blank">Open in Maps</a>
+    <a class="map-btn" href="https://maps.app.goo.gl/RLgFDkdK8RYSxaxQ8" target="_blank">Open in Maps</a>
     
-    <!-- QR code paused until venue details are final.-->>
+    <!-- QR code paused until venue details are final.-->
     <div class="qr-wrap">
       <p class="qr-label">Scan for directions</p>
       <div id="qrcode"></div>
@@ -712,9 +712,10 @@ if ('IntersectionObserver' in window) {
   tick(); setInterval(tick, 1000);
 })();
 
+  /* QR Code */
 window.addEventListener('load', function(){
   new QRCode(document.getElementById('qrcode'), {
-    text:'https://maps.app.goo.gl/ndGbz5ZmUjreYphz5?g_st=aw',
+    text:'https://maps.app.goo.gl/RLgFDkdK8RYSxaxQ8',
     width: 148, height: 148,
     colorDark: '#4a3a28',
     colorLight: '#faf6ed',
